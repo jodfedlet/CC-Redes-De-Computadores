@@ -26,3 +26,8 @@ typedef struct link{
     int rX, rY, cost;
 }Link;
 
+typedef struct table{                                             // Estrutura das tabelas de roteamentos
+  int cost[N_ROT];
+  int path[N_ROT];
+}Table;
+
